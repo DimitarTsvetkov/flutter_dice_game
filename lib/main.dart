@@ -8,7 +8,7 @@ const List<Color> colorsArray = [
 
 void main() {
   runApp(
-    MaterialApp(
+    const MaterialApp(
       home: Scaffold(
         body: GradientContainer(colorsArray),
       ),
